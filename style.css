@@ -1,0 +1,101 @@
+
+.header-container {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 10px 0px 0px;
+}
+
+.header-items{
+    margin:5px;
+    text-decoration: none;
+
+}
+.header-items:hover{
+    text-decoration: underline;
+
+}
+
+.header-grid{
+    height: 25px;
+    width: 25px;
+    margin: 0px 5px;
+}
+
+.header-round{
+    border-radius: 30px;
+}
+
+.logo-container{
+    display: flex;
+    margin: 100px 0px 20px 0px;
+    justify-content: center;
+
+}
+
+.search-container{
+margin: 0 auto;
+border: 1px solid #dcdcdc;
+width: 575px;
+border-radius: 30px;
+display: flex;
+height: 45px;
+}
+
+.search-container:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.searchbar {
+align-items: center;
+justify-content: center;
+width: 500px;
+height:40px;
+border: none;
+outline: none;
+margin-left: 20px;
+
+
+}
+
+.voice{
+    height: 20px;
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.buttons{
+    padding: 12px 17px;
+    margin: 0px 10px ;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.buttons:hover{
+    border:1px solid #dcdcdc;
+    padding: 11px 16px;
+
+}
+
+.language-container{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+
+}
+
+.extra{
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 5px;
+}
