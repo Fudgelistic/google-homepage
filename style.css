@@ -1,3 +1,11 @@
+*{
+    font-family: roboto;
+}
+
+body{
+    margin: 0px;
+}
+
 
 .header-container {
     display:flex;
@@ -98,4 +106,60 @@ margin-top: 10px;
     font-size: 15px;
     text-decoration: none;
     margin-right: 5px;
+}
+
+.extra:hover{
+text-decoration: underline;
+}
+
+.footer-country{
+display: flex;
+position: relative;
+top: 120px;
+border: 1px solid #dcdcdc;
+height: 40px;
+align-items: center;
+background-color: #f1ecec;
+}
+
+.item-country{
+justify-content: start;
+margin: 0px 10px;
+}
+
+.footer-container{
+display: grid;
+padding: 0px;
+grid-template-columns: 1.2fr 1fr 0.8fr 1.4fr 7fr 1fr 1fr 1fr;
+grid-template-rows: 40px;
+grid-template-areas: "ad bus ab how . pri terms set";
+border: 1px solid #dcdcdc;
+position: absolute;
+bottom: 0px;
+width: calc(100% - 3px);
+margin: 1px 1px;
+background-color: #f1ecec;
+}
+
+#advertising{
+    grid-area: ad;
+    margin-left: 10px;
+}
+#business{
+    grid-area: bus;
+}
+#about{
+    grid-area: ab;
+}
+#how{
+    grid-area: how;
+}
+#privacy{
+    grid-area: pri;
+}
+#terms{
+    grid-area: terms;
+}
+#settings{
+    grid-area: set;
 }
